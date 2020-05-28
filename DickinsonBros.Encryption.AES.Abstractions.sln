@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DickinsonBros.Encryption.AES.Abstractions", "DickinsonBros.Encryption.AES.Abstractions\DickinsonBros.Encryption.AES.Abstractions.csproj", "{10997908-CCA0-4116-A3DE-F82AEE243AF1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 Abstractions", "1 Abstractions", "{BF33760B-6BE0-4172-8578-1F9C1FD5B5E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "9 Scripts", "9 Scripts", "{83901E58-95A0-4FDC-AA99-139292EB982F}"
+	ProjectSection(SolutionItems) = preProject
+		Scripts\CreateNugetPackageCI.ps1 = Scripts\CreateNugetPackageCI.ps1
+		Scripts\Publish.yml = Scripts\Publish.yml
+		Scripts\Test.yml = Scripts\Test.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10997908-CCA0-4116-A3DE-F82AEE243AF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10997908-CCA0-4116-A3DE-F82AEE243AF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10997908-CCA0-4116-A3DE-F82AEE243AF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10997908-CCA0-4116-A3DE-F82AEE243AF1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{10997908-CCA0-4116-A3DE-F82AEE243AF1} = {BF33760B-6BE0-4172-8578-1F9C1FD5B5E6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AA93D33E-5B66-4592-846F-EDA18E17CA76}
+	EndGlobalSection
+EndGlobal
