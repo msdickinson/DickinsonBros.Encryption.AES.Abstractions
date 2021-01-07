@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace DickinsonBros.Encryption.AES.Abstractions
+﻿namespace DickinsonBros.Encryption.AES.Abstractions
 {
     public interface IAESEncryptionService<T>
     {
