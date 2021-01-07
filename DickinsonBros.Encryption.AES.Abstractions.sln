@@ -3,16 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29519.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DickinsonBros.Encryption.AES.Abstractions", "DickinsonBros.Encryption.AES.Abstractions\DickinsonBros.Encryption.AES.Abstractions.csproj", "{10997908-CCA0-4116-A3DE-F82AEE243AF1}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 Source", "1 Source", "{0A41B262-5222-499C-9ECF-7336EF91FB6B}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 Abstractions", "1 Abstractions", "{BF33760B-6BE0-4172-8578-1F9C1FD5B5E6}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "9 Scripts", "9 Scripts", "{83901E58-95A0-4FDC-AA99-139292EB982F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 Tests", "2 Tests", "{56DE1562-DFC8-4B7D-8AFD-194753F22391}"
 	ProjectSection(SolutionItems) = preProject
-		Scripts\CreateNugetPackageCI.ps1 = Scripts\CreateNugetPackageCI.ps1
+		Tests\DickinsonBros.Encryption.AES.Abstractions.runsettings = Tests\DickinsonBros.Encryption.AES.Abstractions.runsettings
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 Scripts", "3 Scripts", "{9D58E0AC-D52C-4B97-A7B0-2602698432AE}"
+	ProjectSection(SolutionItems) = preProject
+		Scripts\Prerelease.DickinsonBros.Encryption.AES.Abstractions.ps1 = Scripts\Prerelease.DickinsonBros.Encryption.AES.Abstractions.ps1
 		Scripts\Publish.yml = Scripts\Publish.yml
 		Scripts\Test.yml = Scripts\Test.yml
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DickinsonBros.Encryption.AES.Abstractions.Tests", "Tests\DickinsonBros.Encryption.AES.Abstractions.Tests\DickinsonBros.Encryption.AES.Abstractions.Tests.csproj", "{5300A566-95DC-400A-83A3-3120524A8B24}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DickinsonBros.Encryption.AES.Abstractions", "Source\DickinsonBros.Encryption.AES.Abstractions\DickinsonBros.Encryption.AES.Abstractions.csproj", "{D6ADBE86-92A2-4BBA-9EA9-C9587D5A1798}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,16 +27,21 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{10997908-CCA0-4116-A3DE-F82AEE243AF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{10997908-CCA0-4116-A3DE-F82AEE243AF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{10997908-CCA0-4116-A3DE-F82AEE243AF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{10997908-CCA0-4116-A3DE-F82AEE243AF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5300A566-95DC-400A-83A3-3120524A8B24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5300A566-95DC-400A-83A3-3120524A8B24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5300A566-95DC-400A-83A3-3120524A8B24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5300A566-95DC-400A-83A3-3120524A8B24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6ADBE86-92A2-4BBA-9EA9-C9587D5A1798}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6ADBE86-92A2-4BBA-9EA9-C9587D5A1798}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6ADBE86-92A2-4BBA-9EA9-C9587D5A1798}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6ADBE86-92A2-4BBA-9EA9-C9587D5A1798}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{10997908-CCA0-4116-A3DE-F82AEE243AF1} = {BF33760B-6BE0-4172-8578-1F9C1FD5B5E6}
+		{5300A566-95DC-400A-83A3-3120524A8B24} = {56DE1562-DFC8-4B7D-8AFD-194753F22391}
+		{D6ADBE86-92A2-4BBA-9EA9-C9587D5A1798} = {0A41B262-5222-499C-9ECF-7336EF91FB6B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AA93D33E-5B66-4592-846F-EDA18E17CA76}
